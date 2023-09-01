@@ -6,4 +6,9 @@ public partial class CategoryPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void ImageButton_Clicked(object sender, EventArgs e)
+    {
+		Shell.Current.GoToAsync(nameof(NoteFormPage));
+    }
 }

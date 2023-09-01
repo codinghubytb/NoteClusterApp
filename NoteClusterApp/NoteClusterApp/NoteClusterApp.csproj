@@ -50,14 +50,19 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\add.svg" />
+	  <None Remove="Resources\Images\bold.svg" />
 	  <None Remove="Resources\Images\category.svg" />
 	  <None Remove="Resources\Images\check.svg" />
 	  <None Remove="Resources\Images\close.svg" />
+	  <None Remove="Resources\Images\color.svg" />
 	  <None Remove="Resources\Images\folder.svg" />
 	  <None Remove="Resources\Images\home.svg" />
 	  <None Remove="Resources\Images\icon_logo.svg" />
+	  <None Remove="Resources\Images\italic.svg" />
+	  <None Remove="Resources\Images\link.svg" />
 	  <None Remove="Resources\Images\search.svg" />
 	  <None Remove="Resources\Images\settings.svg" />
+	  <None Remove="Resources\Images\underline.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -74,6 +79,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\CategoryPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\NoteFormPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\SettingsPage.xaml">

@@ -18,10 +18,11 @@
                    HorizontalTextAlignment="Center"
                    VerticalOptions="CenterAndExpand"
                    Grid.Column="1"/>
-            <Image Source="add.svg" 
+            <ImageButton Source="add.svg" 
                    WidthRequest="32"
                    HeightRequest="32"
-                   Grid.Column="2"/>
+                   Grid.Column="2"
+                         Clicked="ImageButton_Clicked"/>
         </Grid>
     </Shell.TitleView>
 

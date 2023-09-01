@@ -50,6 +50,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = NoteClusterApp.Views.MainP
 build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
 
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterApp/Views/NoteFormPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NoteClusterApp.Views.NoteFormPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NoteFormPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NoteFormPage.xaml
+
 [C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterApp/Views/SettingsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NoteClusterApp.Views.SettingsPage.xaml

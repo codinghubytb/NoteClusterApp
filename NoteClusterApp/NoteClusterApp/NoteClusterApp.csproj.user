@@ -5,6 +5,7 @@
     <ActiveDebugFramework>net7.0-android</ActiveDebugFramework>
     <ActiveDebugProfile>Samsung SM-A226B (Android 13.0 - API 33)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+    <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="App.xaml">
@@ -26,6 +27,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Resources\Styles\Styles.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\NoteFormPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\SettingsPage.xaml">
