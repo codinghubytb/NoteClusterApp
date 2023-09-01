@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NoteClusterApp.Views.MainPage"
+             Shell.NavBarIsVisible="True">
+
+    <Shell.TitleView>
+        <Grid BackgroundColor="{StaticResource White}"
+              Padding="0,0,20,0"
+              ColumnDefinitions="Auto,*,Auto">
+            <Image Source="icon_logo.svg" 
+                   WidthRequest="50"
+                   HeightRequest="50"
+                   Grid.Column="0"/>
+            <Label Text="Note Cluster"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   VerticalOptions="CenterAndExpand"
+                   Grid.Column="1"/>
+            <Image Source="search.svg" 
+                   WidthRequest="32"
+                   HeightRequest="32"
+                   Grid.Column="2"/>
+        </Grid>
+    </Shell.TitleView>
+
+
+    <ScrollView>
+        <StackLayout
+        Padding="15"
+        Spacing="20">
+
+        <BoxView HeightRequest="1"
+                 Color="LightGray" />
+
+        <StackLayout Orientation="Horizontal">
+
+            <Label Text="List Notes" 
+               FontSize="Medium"
+               FontAttributes="Bold"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="All Notes" 
+                   VerticalTextAlignment="Center"/>
+        </StackLayout>
+
+        <StackLayout
+                Spacing="20">
+
+
+                <Frame BorderColor="#f2f7ff"
+               BackgroundColor="#f2f7ff">
+
+                    <StackLayout
+                Spacing="20">
+                        <Label Text="How To Draw A Professional Wirefame"
+                       FontAttributes="Bold" 
+                       FontSize="Medium"/>
+
+                        <StackLayout
+                    Orientation="Horizontal">
+
+                            <Label Text="Design | Wirefame" 
+                           HorizontalOptions="FillAndExpand"/>
+
+                            <Label Text="2023/09/01" />
+
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+                <Frame BorderColor="#fef6e5"
+               BackgroundColor="#fef6e5">
+
+                    <StackLayout
+                Spacing="20">
+                        <Label Text="How To Draw A Professional Wirefame"
+                       FontAttributes="Bold" 
+                       FontSize="Medium"/>
+
+                        <StackLayout
+                    Orientation="Horizontal">
+
+                            <Label Text="Design | Wirefame" 
+                           HorizontalOptions="FillAndExpand"/>
+
+                            <Label Text="2023/09/01" />
+
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+                <Frame BorderColor="#e4ffe6"
+               BackgroundColor="#e4ffe6">
+
+                    <StackLayout
+                Spacing="20">
+                        <Label Text="How To Draw A Professional Wirefame"
+                       FontAttributes="Bold" 
+                       FontSize="Medium"/>
+
+                        <StackLayout
+                    Orientation="Horizontal">
+
+                            <Label Text="Design | Wirefame" 
+                           HorizontalOptions="FillAndExpand"/>
+
+                            <Label Text="2023/09/01" />
+
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+                <Frame BorderColor="#fbe8ff"
+               BackgroundColor="#fbe8ff">
+
+                    <StackLayout
+                Spacing="20">
+                        <Label Text="How To Draw A Professional Wirefame"
+                       FontAttributes="Bold" 
+                       FontSize="Medium"/>
+
+                        <StackLayout
+                    Orientation="Horizontal">
+
+                            <Label Text="Design | Wirefame" 
+                           HorizontalOptions="FillAndExpand"/>
+
+                            <Label Text="2023/09/01" />
+
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+                <Frame BorderColor="#f2f7ff"
+               BackgroundColor="#f2f7ff">
+
+                    <StackLayout
+                Spacing="20">
+                        <Label Text="How To Draw A Professional Wirefame"
+                       FontAttributes="Bold" 
+                       FontSize="Medium"/>
+
+                        <StackLayout
+                    Orientation="Horizontal">
+
+                            <Label Text="Design | Wirefame" 
+                           HorizontalOptions="FillAndExpand"/>
+
+                            <Label Text="2023/09/01" />
+
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+                <Frame BorderColor="#fef6e5"
+               BackgroundColor="#fef6e5">
+
+                    <StackLayout
+                Spacing="20">
+                        <Label Text="How To Draw A Professional Wirefame"
+                       FontAttributes="Bold" 
+                       FontSize="Medium"/>
+
+                        <StackLayout
+                    Orientation="Horizontal">
+
+                            <Label Text="Design | Wirefame" 
+                           HorizontalOptions="FillAndExpand"/>
+
+                            <Label Text="2023/09/01" />
+
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+                <Frame BorderColor="#e4ffe6"
+               BackgroundColor="#e4ffe6">
+
+                    <StackLayout
+                Spacing="20">
+                        <Label Text="How To Draw A Professional Wirefame"
+                       FontAttributes="Bold" 
+                       FontSize="Medium"/>
+
+                        <StackLayout
+                    Orientation="Horizontal">
+
+                            <Label Text="Design | Wirefame" 
+                           HorizontalOptions="FillAndExpand"/>
+
+                            <Label Text="2023/09/01" />
+
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+                <Frame BorderColor="#fbe8ff"
+               BackgroundColor="#fbe8ff">
+
+                    <StackLayout
+                Spacing="20">
+                        <Label Text="How To Draw A Professional Wirefame"
+                       FontAttributes="Bold" 
+                       FontSize="Medium"/>
+
+                        <StackLayout
+                    Orientation="Horizontal">
+
+                            <Label Text="Design | Wirefame" 
+                           HorizontalOptions="FillAndExpand"/>
+
+                            <Label Text="2023/09/01" />
+
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+            </StackLayout>
+
+    </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>

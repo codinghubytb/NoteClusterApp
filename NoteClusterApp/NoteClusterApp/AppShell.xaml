@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="NoteClusterApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:NoteClusterApp.Views"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False">
+
+    <Shell.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="White" StatusBarStyle="DarkContent" />
+    </Shell.Behaviors>
+    
+    <TabBar>
+
+        <ShellContent
+        Icon="home.svg"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+        <ShellContent
+        Icon="category.svg"
+        ContentTemplate="{DataTemplate local:CategoryPage}" />
+
+        <ShellContent
+        Icon="settings.svg"
+        ContentTemplate="{DataTemplate local:SettingsPage}" />
+        
+    </TabBar>
+
+</Shell>
