@@ -8,6 +8,7 @@ namespace NoteClusterApp
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(NoteFormPage), typeof(NoteFormPage));
+            Routing.RegisterRoute(nameof(CategoryNotePage), typeof(CategoryNotePage));
         }
     }
 }

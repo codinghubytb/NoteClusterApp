@@ -9,7 +9,8 @@
     Shell.NavBarIsVisible="False">
 
     <Shell.Behaviors>
-        <toolkit:StatusBarBehavior StatusBarColor="White" StatusBarStyle="DarkContent" />
+        <toolkit:StatusBarBehavior StatusBarColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Primary}}" 
+                                   StatusBarStyle="Default" />
     </Shell.Behaviors>
     
     <TabBar>
@@ -23,9 +24,9 @@
         Icon="category.svg"
         ContentTemplate="{DataTemplate local:CategoryPage}" />
 
-        <ShellContent
+        <!--<ShellContent
         Icon="settings.svg"
-        ContentTemplate="{DataTemplate local:SettingsPage}" />
+        ContentTemplate="{DataTemplate local:SettingsPage}" />-->
         
     </TabBar>
 

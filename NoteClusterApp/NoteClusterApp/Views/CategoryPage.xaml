@@ -2,175 +2,53 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NoteClusterApp.Views.CategoryPage"
-             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModel="clr-namespace:NoteClusterApp.ViewModel"
+             xmlns:lang="clr-namespace:NoteClusterApp.Resources.Languages"
+             xmlns:template="clr-namespace:NoteClusterApp.Templates"
+             xmlns:model="clr-namespace:NoteClusterApp.Models"
+             x:DataType="viewModel:CategorieViewModel"
              Shell.NavBarIsVisible="True">
 
     <Shell.TitleView>
-        <Grid BackgroundColor="{StaticResource White}"
+        <Grid BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Primary}}"
               Padding="0,0,20,0"
-              ColumnDefinitions="32,*,Auto">
-            <Image WidthRequest="32"
-                   HeightRequest="32"
-                   Grid.Column="0"/>
+              ColumnDefinitions="*">
             <Label Text="Categories"
                    FontAttributes="Bold"
                    FontSize="Large"
                    HorizontalTextAlignment="Center"
                    VerticalOptions="CenterAndExpand"
                    Grid.Column="1"/>
-            <ImageButton Source="add.svg" 
-                   WidthRequest="32"
-                   HeightRequest="32"
-                   Grid.Column="2"
-                         Clicked="ImageButton_Clicked"/>
         </Grid>
     </Shell.TitleView>
 
-    <StackLayout
-    Padding="15"
-    Spacing="20">
+    <Grid
+        RowDefinitions="1,*"
+        RowSpacing="20">
 
-        <BoxView HeightRequest="1"
+        <BoxView 
              Color="LightGray" />
 
-        <StackLayout Orientation="Horizontal">
+        <RefreshView
+            Command="{Binding LoadDataCommand}"
+            IsRefreshing="{Binding IsBusy, Mode=TwoWay}"
+            Grid.Row="1">
 
-            <Label Text="List Categories" 
-                   FontSize="Medium"
-                   FontAttributes="Bold"
-                   HorizontalOptions="FillAndExpand"/>
-
-            <Label Text="New" 
-           VerticalTextAlignment="Center"/>
-        </StackLayout>
-
-        <StackLayout
-            Orientation="Horizontal"
-            Spacing="10">
-
-            <Frame
-                HorizontalOptions="FillAndExpand"
-                BorderColor="#f6faff"
-                BackgroundColor="#f6faff"
-                CornerRadius="20">
-
-                <StackLayout Spacing="10">
-
-                    <Image Source="folder.svg"
-                           WidthRequest="80"
-                           HeightRequest="80">
-                        <Image.Behaviors>
-                            <toolkit:IconTintColorBehavior TintColor="#428bfa" />
-                        </Image.Behaviors>
-                    </Image>
-
-                    <Label Text="Design" 
-                           FontAttributes="Bold"
-                           FontSize="Medium"
-                           HorizontalTextAlignment="Center"/>
-
-
-                    <Label Text="15 Notes" 
-                           HorizontalTextAlignment="Center"/>
+            <ScrollView
+                IsVisible="{Binding IsNotBusy}">
+                <StackLayout x:Name="view">
 
                 </StackLayout>
+            </ScrollView>
 
-            </Frame>
+        </RefreshView>
 
-            <Frame
-                HorizontalOptions="FillAndExpand"
-                BorderColor="#fef9ed"
-                BackgroundColor="#fef9ed"
-                CornerRadius="20">
-
-                <StackLayout Spacing="10">
-
-                    <Image Source="folder.svg"
-                           WidthRequest="80"
-                           HeightRequest="80">
-                        <Image.Behaviors>
-                            <toolkit:IconTintColorBehavior TintColor="#ffc545" />
-                        </Image.Behaviors>
-                    </Image>
-
-                    <Label Text="Design" 
-                           FontAttributes="Bold"
-                           FontSize="Medium"
-                           HorizontalTextAlignment="Center"/>
-
-
-                    <Label Text="15 Notes" 
-                           HorizontalTextAlignment="Center"/>
-
-                </StackLayout>
-
-            </Frame>
-
-        </StackLayout>
-
-        <StackLayout
-     Orientation="Horizontal"
-     Spacing="10">
-
-            <Frame
-         HorizontalOptions="FillAndExpand"
-         BorderColor="#ecffee"
-         BackgroundColor="#ecffee"
-         CornerRadius="20">
-
-                <StackLayout Spacing="10">
-
-                    <Image Source="folder.svg"
-                    WidthRequest="80"
-                    HeightRequest="80">
-                        <Image.Behaviors>
-                            <toolkit:IconTintColorBehavior TintColor="#56d25f" />
-                        </Image.Behaviors>
-                    </Image>
-
-                    <Label Text="Every" 
-                    FontAttributes="Bold"
-                    FontSize="Medium"
-                    HorizontalTextAlignment="Center"/>
-
-
-                    <Label Text="15 Notes" 
-                    HorizontalTextAlignment="Center"/>
-
-                </StackLayout>
-
-            </Frame>
-
-            <Frame
-         HorizontalOptions="FillAndExpand"
-         BorderColor="#fbe8ff"
-         BackgroundColor="#fbe8ff"
-         CornerRadius="20">
-
-                <StackLayout Spacing="10">
-
-                    <Image Source="folder.svg"
-                    WidthRequest="80"
-                    HeightRequest="80">
-                        <Image.Behaviors>
-                            <toolkit:IconTintColorBehavior TintColor="#e86aff" />
-                        </Image.Behaviors>
-                    </Image>
-
-                    <Label Text="Sucess" 
-                    FontAttributes="Bold"
-                    FontSize="Medium"
-                    HorizontalTextAlignment="Center"/>
-
-
-                    <Label Text="55 Notes" 
-                    HorizontalTextAlignment="Center"/>
-
-                </StackLayout>
-
-            </Frame>
-
-        </StackLayout>
-
-    </StackLayout>
+        <ActivityIndicator 
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand"
+            IsRunning="{Binding IsBusy}"
+            IsVisible="{Binding IsBusy}"/>
+    </Grid>
 </ContentPage>

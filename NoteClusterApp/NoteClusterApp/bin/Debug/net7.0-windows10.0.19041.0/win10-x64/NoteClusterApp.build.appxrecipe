@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\NoteClusterApp.deps.json">
       <PackagePath>NoteClusterApp.deps.json</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\fr\NoteClusterApp.resources.dll">
+      <PackagePath>fr\NoteClusterApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
@@ -607,6 +610,15 @@
     <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.29\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\communitytoolkit.maui\5.3.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\communitytoolkit.maui.core\5.3.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\communitytoolkit.mvvm\8.2.1\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
     </AppxPackagedFile>
@@ -685,11 +697,32 @@
     <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll">
+      <PackagePath>SQLitePCLRaw.nativelibrary.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\sqlitepclraw.core\2.1.6\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.1.6\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\system.speech\7.0.0\runtimes\win\lib\net7.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -877,6 +910,21 @@
     <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bold.scale-100.png">
+      <PackagePath>bold.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bold.scale-125.png">
+      <PackagePath>bold.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bold.scale-150.png">
+      <PackagePath>bold.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bold.scale-200.png">
+      <PackagePath>bold.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bold.scale-400.png">
+      <PackagePath>bold.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\category.scale-100.png">
       <PackagePath>category.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -921,6 +969,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-400.png">
       <PackagePath>close.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\color.scale-100.png">
+      <PackagePath>color.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\color.scale-125.png">
+      <PackagePath>color.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\color.scale-150.png">
+      <PackagePath>color.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\color.scale-200.png">
+      <PackagePath>color.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\color.scale-400.png">
+      <PackagePath>color.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
@@ -967,6 +1030,51 @@
     <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-400.png">
       <PackagePath>home.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_logo.scale-100.png">
+      <PackagePath>icon_logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_logo.scale-125.png">
+      <PackagePath>icon_logo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_logo.scale-150.png">
+      <PackagePath>icon_logo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_logo.scale-200.png">
+      <PackagePath>icon_logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_logo.scale-400.png">
+      <PackagePath>icon_logo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\italic.scale-100.png">
+      <PackagePath>italic.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\italic.scale-125.png">
+      <PackagePath>italic.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\italic.scale-150.png">
+      <PackagePath>italic.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\italic.scale-200.png">
+      <PackagePath>italic.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\italic.scale-400.png">
+      <PackagePath>italic.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\link.scale-100.png">
+      <PackagePath>link.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\link.scale-125.png">
+      <PackagePath>link.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\link.scale-150.png">
+      <PackagePath>link.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\link.scale-200.png">
+      <PackagePath>link.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\link.scale-400.png">
+      <PackagePath>link.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png">
       <PackagePath>search.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -996,6 +1104,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-400.png">
       <PackagePath>settings.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\underline.scale-100.png">
+      <PackagePath>underline.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\underline.scale-125.png">
+      <PackagePath>underline.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\underline.scale-150.png">
+      <PackagePath>underline.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\underline.scale-200.png">
+      <PackagePath>underline.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\underline.scale-400.png">
+      <PackagePath>underline.scale-400.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

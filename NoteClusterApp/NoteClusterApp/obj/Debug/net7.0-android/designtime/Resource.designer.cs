@@ -21705,19 +21705,16 @@ namespace NoteClusterApp
 			public const int splash = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int splashnote = 2131165406;
+			public const int test_level_drawable = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int test_level_drawable = 2131165407;
+			public const int tooltip_frame_dark = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int tooltip_frame_dark = 2131165408;
+			public const int tooltip_frame_light = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int tooltip_frame_light = 2131165409;
-			
-			// aapt resource value: 0x7F0700E2
-			public const int underline = 2131165410;
+			public const int underline = 2131165409;
 			
 			static Drawable()
 			{

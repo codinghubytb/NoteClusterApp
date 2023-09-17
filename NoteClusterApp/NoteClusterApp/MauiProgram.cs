@@ -1,5 +1,7 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
+using NoteClusterApp.Services;
+using NoteClusterApp.Views;
 
 namespace NoteClusterApp
 {
@@ -8,6 +10,7 @@ namespace NoteClusterApp
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
+
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()

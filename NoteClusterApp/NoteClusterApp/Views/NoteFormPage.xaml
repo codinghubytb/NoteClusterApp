@@ -2,6 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NoteClusterApp.Views.NoteFormPage"
+             xmlns:viewModel="clr-namespace:NoteClusterApp.ViewModel"
+             xmlns:lang="clr-namespace:NoteClusterApp.Resources.Languages"
+             x:DataType="viewModel:NoteFormViewModel"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              Shell.PresentationMode="ModalAnimated">
 
@@ -10,7 +13,6 @@
         Padding="20"
         RowSpacing="20">
 
-
         <StackLayout
             Grid.Row="0"
             Orientation="Horizontal">
@@ -18,17 +20,29 @@
                 WidthRequest="32"
                 HeightRequest="32"
                 Source="close.svg" 
-                Clicked="ImageButton_Clicked"/>
-            <Label Text="Edit Note" 
+                Command="{Binding CloseCommand}">
+            <ImageButton.Behaviors>
+                <toolkit:IconTintColorBehavior TintColor="Red" />
+                </ImageButton.Behaviors>
+            </ImageButton>
+            <Label Text="{Binding Title}" 
                 HorizontalOptions="FillAndExpand"
                    HorizontalTextAlignment="Center"
                    FontSize="Medium"
                    FontAttributes="Bold"
+                   MaxLines="1"
+                   LineBreakMode="TailTruncation"
                    VerticalOptions="CenterAndExpand"/>
             <ImageButton
                 WidthRequest="32"
                 HeightRequest="32"
-                Source="check.svg" />
+                Source="check.svg" 
+                Command="{Binding SaveCommand}">
+                <ImageButton.Behaviors>
+                    <toolkit:IconTintColorBehavior TintColor="#00a63f" />
+                </ImageButton.Behaviors>
+            </ImageButton>
+
         </StackLayout>
 
         <BoxView
@@ -36,18 +50,36 @@
             Color="LightGray"/>
 
         <Entry 
+            IsReadOnly="{Binding IsReadOnly}"
             Grid.Row="2"
-            Text="How To Draw A Professional Wirefame ?" 
-               FontSize="Medium"
-               FontAttributes="Bold"
-               />
+            MaxLength="255"
+            Placeholder="{x:Static lang:AppResources.PlaceholderTitleNote}"
+            Text="{Binding Note.Title, Mode=TwoWay}" 
+            FontSize="Medium"
+            FontAttributes="Bold"/>
 
         <StackLayout
             Grid.Row="3"
+            Spacing="10"
             Orientation="Horizontal">
 
-            <Label Text="Design | Wirefame" 
-                    HorizontalOptions="FillAndExpand"/>
+            <Button Text="{Binding TitleCat, Mode=TwoWay}" 
+                    HorizontalOptions="FillAndExpand"
+                    FontSize="Small"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}"
+                    TextColor="{AppThemeBinding Dark={StaticResource Primary}, Light={StaticResource White}}"
+                    Command="{Binding DisplayCategorieCommand}"
+                    />
+
+            <Button Text="Édit" 
+                    BackgroundColor="#0074e4"
+                    IsVisible="{Binding IsReadOnly}"
+                    Command="{Binding EditCommand}"/>
+
+            <Button Text="Delete" 
+                    BackgroundColor="Red"
+                    IsVisible="{Binding IsDelete}"
+                    Command="{Binding DeleteCommand}" />
 
         </StackLayout>
 
@@ -55,68 +87,12 @@
             Grid.Row="4"
             Color="LightGray"/>
 
-        <Label 
+        <Editor 
+            IsReadOnly="{Binding IsReadOnly}"
             Grid.Row="5"
             FontSize="Medium"
-            Focused="Editor_Focused"
-            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien libero, ullamcorper viverra ultricies ac, rutrum sed elit. Suspendisse pulvinar gravida dolor, sed euismod lacus interdum ac. Maecenas a diam a enim molestie iaculis. Vivamus id eleifend purus. Nullam nec risus ac felis scelerisque scelerisque id tincidunt mi. Nunc in convallis enim, at fermentum turpis. Pellentesque posuere at turpis et semper. Cras rhoncus, orci eu semper consectetur, tellus risus laoreet magna, ut blandit quam erat vitae dolor.
+            Placeholder="Description..."
+            Text="{Binding Note.Description, Mode=TwoWay}"/>
 
-Nunc sed iaculis ligula, a vestibulum eros. Fusce in arcu sed ligula mollis ullamcorper. Maecenas gravida vel metus a posuere. Sed accumsan rutrum magna, at efficitur mauris tincidunt semper. Curabitur facilisis arcu convallis, tempor justo sit amet, malesuada purus. Aliquam gravida at erat ut tincidunt. Sed pretium metus sed arcu molestie tincidunt dignissim ut purus. Vivamus vel nulla ac dui sollicitudin tristique viverra a mauris. Donec semper congue neque, sed dignissim ante molestie aliquam. Etiam fermentum lorem vel elit feugiat, ac dapibus urna commodo. Nulla leo est, pulvinar id nisl et, gravida vestibulum enim. Suspendisse nec lacinia orci. Vestibulum eget ligula ex. Nulla vitae tortor fermentum, lacinia libero eu, gravida diam. Quisque condimentum arcu vitae lacus hendrerit, quis malesuada arcu aliquam. Quisque hendrerit erat nisl, id pulvinar justo faucibus non.
-
-Donec sollicitudin non purus ac dapibus. Cras commodo posuere mauris, ut mollis risus tincidunt sed. Aliquam tincidunt facilisis semper. Aliquam et efficitur arcu. Phasellus id elit non arcu condimentum iaculis. Integer ut dolor augue. Etiam non tellus in felis porttitor auctor. Sed at viverra mauris, et viverra lectus. Donec suscipit orci eu purus elementum ultricies.
-
-Cras non lacinia ligula. Pellentesque eget nisl varius turpis viverra suscipit luctus et orci. Ut ac viverra purus, in laoreet ligula. Morbi luctus erat at pharetra imperdiet. Quisque mollis imperdiet dictum. Fusce a metus vel urna ornare accumsan eu eget felis. Ut condimentum massa eget nunc vestibulum molestie. Suspendisse potenti. Proin vitae sollicitudin magna. Proin varius vel elit id suscipit. Maecenas ac commodo dolor, a malesuada sapien. Suspendisse at convallis mi, ac tincidunt sem. Cras quis turpis blandit, dapibus lorem ut, laoreet lectus. Ut imperdiet lorem nec dictum convallis. Nullam ut pretium quam, vitae egestas ex. Quisque quis accumsan ex, vitae consequat ante.
-
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse eget dapibus urna, a ultricies mi. Morbi orci nulla, commodo eu mauris sit amet, condimentum venenatis nunc. Pellentesque accumsan pulvinar justo, at condimentum orci tincidunt eu. Nulla faucibus viverra libero, quis tincidunt quam consectetur vel. Aliquam ut purus pulvinar massa feugiat lacinia vitae sed odio. Fusce orci velit, venenatis a quam eget, semper ultrices velit. Nam eros mi, placerat vulputate ultrices non, eleifend vel turpis. Quisque tristique sem non ante tincidunt lobortis. Fusce vitae porttitor arcu, eu finibus diam. Aenean a justo vitae nisi sollicitudin scelerisque. Nulla aliquet dictum purus. In consequat luctus nisi, vitae ornare erat. In posuere mauris in orci imperdiet, eu tempus magna varius. " />
-
-        <Frame
-            BackgroundColor="{StaticResource Black}"
-            Grid.Row="6">
-            <StackLayout
-                Orientation="Horizontal">
-
-                <ImageButton
-                    WidthRequest="32"
-                    HeightRequest="32"
-                    Source="bold.svg"
-                    HorizontalOptions="FillAndExpand">
-                    <ImageButton.Behaviors>
-                        <toolkit:IconTintColorBehavior TintColor="{StaticResource White}" />
-                    </ImageButton.Behaviors>
-                </ImageButton>
-                
-                <ImageButton
-                    WidthRequest="32"
-                    HeightRequest="32"
-                    Source="italic.svg"
-                    HorizontalOptions="FillAndExpand">
-                    <ImageButton.Behaviors>
-                        <toolkit:IconTintColorBehavior TintColor="{StaticResource White}" />
-                    </ImageButton.Behaviors>
-                </ImageButton>
-
-                <ImageButton
-                    WidthRequest="32"
-                    HeightRequest="32"
-                    Source="underline.svg"
-                    HorizontalOptions="FillAndExpand">
-                    <ImageButton.Behaviors>
-                        <toolkit:IconTintColorBehavior TintColor="{StaticResource White}" />
-                    </ImageButton.Behaviors>
-                </ImageButton>
-
-                <ImageButton
-                    WidthRequest="32"
-                    HeightRequest="32"
-                    Source="link.svg"
-                    HorizontalOptions="FillAndExpand">
-                    <ImageButton.Behaviors>
-                        <toolkit:IconTintColorBehavior TintColor="{StaticResource White}" />
-                    </ImageButton.Behaviors>
-                </ImageButton>
-
-            </StackLayout>
-        </Frame>
-        
     </Grid>
 </ContentPage>

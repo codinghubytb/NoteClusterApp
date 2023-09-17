@@ -1,14 +1,20 @@
+using NoteClusterApp.ViewModel;
+
 namespace NoteClusterApp.Views;
 
 public partial class CategoryPage : ContentPage
 {
+    CategorieViewModel viewModel;
 	public CategoryPage()
 	{
 		InitializeComponent();
-	}
+        BindingContext = viewModel = new CategorieViewModel();
+    }
 
-    private void ImageButton_Clicked(object sender, EventArgs e)
+    protected override void OnAppearing()
     {
-		Shell.Current.GoToAsync(nameof(NoteFormPage));
+        base.OnAppearing();
+        viewModel.Views = view;
+        viewModel.OnAppearing();
     }
 }

@@ -13,7 +13,6 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\link.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\search.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\settings.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splash.png
-obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splashnote.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\underline.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\add.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\bold.png
@@ -30,7 +29,6 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\link.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\search.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\settings.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\splash.png
-obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\splashnote.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\underline.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\add.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\bold.png
@@ -47,7 +45,6 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\link.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\search.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\settings.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\splash.png
-obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\splashnote.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\underline.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\add.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\bold.png
@@ -64,7 +61,6 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\link.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\search.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\settings.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\splash.png
-obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\splashnote.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\underline.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\add.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\bold.png
@@ -81,7 +77,6 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\link.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\search.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\settings.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\splash.png
-obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\splashnote.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\underline.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
