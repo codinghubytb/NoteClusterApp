@@ -7,7 +7,7 @@
 
     Pour plus d'informations sur les fichiers manifeste, consultez http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="e1a1334a-d5b3-4219-afad-6a6bc4d6f70a" Publisher="CN=User Name" Version="1.0.1.1" ProcessorArchitecture="x64" />
+  <Identity Name="e1a1334a-d5b3-4219-afad-6a6bc4d6f70a" Publisher="CN=User Name" Version="1.0.1.2" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="E983F39F-A48F-434E-86CD-54410CB4480D" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Note Cluster</DisplayName>
