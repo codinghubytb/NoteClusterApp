@@ -87,7 +87,9 @@
                 FontSize="50"
                 Grid.Column="1"
                 Grid.Row="3"
-                BorderColor="Black"
+                TextColor="{AppThemeBinding Dark={x:StaticResource Primary}, Light={x:StaticResource White}}"
+                BackgroundColor="{AppThemeBinding Light={x:StaticResource Primary}, Dark={x:StaticResource White}}"
+                BorderColor="{AppThemeBinding Light={x:StaticResource Primary}, Dark={x:StaticResource White}}"
                 BorderWidth="1.5"
                 Command="{Binding CreateNoteCommand}"/>
     </Grid>

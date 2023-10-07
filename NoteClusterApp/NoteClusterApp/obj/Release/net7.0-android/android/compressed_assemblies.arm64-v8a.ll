@@ -33,7 +33,7 @@ target triple = "aarch64-unknown-linux-android"
 @__CompressedAssemblyDescriptor_data_16 = internal global [205752 x i8] zeroinitializer, align 1
 @__CompressedAssemblyDescriptor_data_17 = internal global [602040 x i8] zeroinitializer, align 1
 @__CompressedAssemblyDescriptor_data_18 = internal global [1552384 x i8] zeroinitializer, align 1
-@__CompressedAssemblyDescriptor_data_19 = internal global [737792 x i8] zeroinitializer, align 1
+@__CompressedAssemblyDescriptor_data_19 = internal global [740864 x i8] zeroinitializer, align 1
 @__CompressedAssemblyDescriptor_data_20 = internal global [101376 x i8] zeroinitializer, align 1
 @__CompressedAssemblyDescriptor_data_21 = internal global [6144 x i8] zeroinitializer, align 1
 @__CompressedAssemblyDescriptor_data_22 = internal global [50688 x i8] zeroinitializer, align 1
@@ -247,9 +247,9 @@ target triple = "aarch64-unknown-linux-android"
 	}, 
 	; 19
 	%struct.CompressedAssemblyDescriptor {
-		i32 737792, ; uncompressed_file_size
+		i32 740864, ; uncompressed_file_size
 		i8 0, ; loaded
-		i8* getelementptr inbounds ([737792 x i8], [737792 x i8]* @__CompressedAssemblyDescriptor_data_19, i32 0, i32 0); data
+		i8* getelementptr inbounds ([740864 x i8], [740864 x i8]* @__CompressedAssemblyDescriptor_data_19, i32 0, i32 0); data
 	}, 
 	; 20
 	%struct.CompressedAssemblyDescriptor {

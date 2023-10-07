@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {},
     ".NETCoreApp,Version=v7.0/win10-x64": {
-      "NoteClusterApp/1.0.1": {
+      "NoteClusterApp/1.0.2": {
         "dependencies": {
           "CommunityToolkit.Maui": "5.3.0",
           "CommunityToolkit.Mvvm": "8.2.1",
@@ -1103,7 +1103,7 @@
     }
   },
   "libraries": {
-    "NoteClusterApp/1.0.1": {
+    "NoteClusterApp/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

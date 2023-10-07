@@ -16,6 +16,7 @@ namespace NoteClusterApp
             Database database = new Database();
             Dictionary<string, string> keyValuePairs = new Dictionary<string, string>()
             {
+                {"Archives","#F5F5F5" },
                 {"Work/Professional","#CCE5FF" },
                 {"Personal","#DFFFD3" },
                 {"Education","#FFF9C2" },
@@ -30,20 +31,33 @@ namespace NoteClusterApp
                 {"Inspirations","#E6E6FA" },
                 {"Shopping Lists","#B0E0E6" },
                 {"Personal Projects","#FFC0CB" },
-                {"Archives","#F5F5F5" },
+                {"Sport","#ffcf00" },
             };
             var categories = await database.GetCategorieAsync();
             if(categories.Count == 0)
             {
-                foreach(var keyValue in keyValuePairs)
+                foreach (var kvp in keyValuePairs)
                 {
+                    string guid = Guid.NewGuid().ToString();
                     await database.SaveCategorieAsync(new Models.Categorie()
                     {
-                        Title = keyValue.Key,
-                        Guid = Guid.NewGuid().ToString(),
-                        Color = keyValue.Value
+                        Title = kvp.Key,  // Accédez à la clé avec kvp.Key
+                        Guid = guid,
+                        Color = kvp.Value  // Accédez à la valeur avec kvp.Value
                     });
+
+                    if (kvp.Key == "Archives")
+                    {
+                        await database.SaveNoteAsync(new Models.Note()
+                        {
+                            Title = "Welcome note !!",
+                            Description = $"Keep your sports-related ideas organized with Note Cluster!\n" +
+                            $"Track your favorite sports events and activities with our note-taking app.",
+                            GuidCategorie = guid
+                        });
+                    }
                 }
+
             }
         }
     }
