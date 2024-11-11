@@ -1,0 +1,30 @@
+﻿@page "/categories"
+@inherits CategoryPageModel
+
+<Grid Items=@Categories TItem=Category Gap="10">
+    <ItemTemplate Context="item">
+        <Navigate Path=@($"categoryform/{item.Id}") NavigateEvent=OnNavigate>
+            <ItemTemplate>
+                <Wrapper2 Padding="10">
+                    <ItemTemplate>
+                        <div style="display: flex;">
+                            <Title Text=@item.Name FontSize="22" IsCenter="false" IsBold="false" />
+                            <h4 style="color: @item.Color; width: 40%; display:flex; justify-content: end; align-items: center;">
+                                @item.NbItems Items
+                            </h4>
+                        </div>
+                    </ItemTemplate>
+                </Wrapper2>
+
+            </ItemTemplate>
+        </Navigate>
+    </ItemTemplate>
+    <EmptyResults></EmptyResults>
+</Grid>
+
+<Space NumberSpace="5" />
+
+<button class="btn-fab" style="background-color: maroon" @onclick=@(()=>OnNavigate("categoryform/0"))>
+    <span class="btn-icon">+</span>
+</button>
+

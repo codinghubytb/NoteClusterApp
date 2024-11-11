@@ -1,0 +1,49 @@
+﻿@page "/noteform/{Id:int}"
+@inherits NoteFormPageModel
+
+<Title Text="Create Note" TextColor="var(--text-color)" />
+
+<Space />
+
+<Label Text="Title" />
+<TextInput @bind-Value=NoteItem.Title Placeholder="Title ..." BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+
+<Space />
+
+<Label Text="Content" />
+<TextareaInput @bind-Value=NoteItem.Content Placeholder="Content ..." Row="10" BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+
+<Space />
+
+<Label Text="Category" />
+<SelectInput TValue=int @bind-Value=NoteItem.CategoryId>
+    @foreach (var cat in Categories)
+    {
+        <option value=@cat.Id>@cat.Name</option>
+    }
+</SelectInput>
+
+<Space />
+
+<CheckBoxInput Label="Is Archive" @bind-Value=NoteItem.IsArchived />
+
+<CheckBoxInput Label="Is Important" @bind-Value=NoteItem.IsImportant />
+
+<Space />
+
+<Label Text=@($"Date Created : {NoteItem.DateCreated}") TextColor="var(--text-color)" />
+<Label Text=@($"Date Modified : {NoteItem.DateModified}") TextColor="var(--text-color)" />
+
+<Space />
+
+<p style="color:red;" >@Error</p>
+<Content>
+    <ItemTemplate>
+        <Button Text="Cancel" BorderColor="var(--primary-color)" TextColor="var(--primary-color)" ClickEvent=@(() => OnNavigate("notes")) />
+        @if(NoteItem.Id != 0)
+        {
+            <Button Text="Delete" BackgroundColor="red" TextColor="white" ClickEvent=@DeleteNote />
+        }
+        <Button Text="Save" BackgroundColor="var(--primary-color)" TextColor="white" ClickEvent=@SaveNote />
+    </ItemTemplate>
+</Content>

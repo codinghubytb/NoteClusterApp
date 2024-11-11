@@ -1,0 +1,69 @@
+﻿<div class="tabbar">
+    <button class="tab-button" @onclick=@(()=>OnNavigate("/"))>
+            <img src="icon/home.svg" alt="Home" />
+            <span>Home</span>
+    </button>
+    <button class="tab-button" @onclick=@(()=>OnNavigate("/notes"))>
+        <img src="icon/note.svg" alt="Note" />
+        <span>Note</span>
+    </button>
+    <button class="tab-button" @onclick=@(()=>OnNavigate("/tasks"))>
+        <img src="icon/task.svg" alt="Task" />
+        <span>Task</span>
+    </button>
+    <button class="tab-button" @onclick=@(()=>OnNavigate("/categories"))>
+        <img src="icon/category.svg" alt="Category" />
+        <span>Category</span>
+    </button>
+    <button class="tab-button" @onclick=@(()=>OnNavigate("/settings"))>
+        <img src="icon/settings.svg" alt="Settings" />
+        <span>Settings</span>
+    </button>
+</div>
+
+@code{
+    [Inject]
+    public NavigationManager NavigationManager { get; set; }
+
+    void OnNavigate(string path)
+    {
+        NavigationManager.NavigateTo(path);
+    }
+}
+
+<style>
+
+    .tab-button {
+        background: none;
+        width: 100%;
+        border: none;
+        color: var(--text-color);
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        cursor: default;
+        transition: color 0.3s ease;
+        opacity:0.5;
+    }
+
+        .tab-button img {
+            width: 24px;
+            height: 24px;
+            margin-bottom: 5px;
+        }
+
+        .tab-button span {
+            font-size: 12px;
+        }
+
+        .tab-button:hover {
+            color: var(--primary-color);
+        }
+
+        .tab-button.active {
+            color: var(--primary-color);
+            opacity: 1;
+        }
+</style>

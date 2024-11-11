@@ -1,0 +1,74 @@
+﻿@page "/settings"
+@inherits SettingsPageModel
+
+
+@if (IsSnackToast)
+{
+    <SnackBar Message=@TextSnackToast Position="tc" Status=@StatusSnackToast />
+}
+
+<div style="width: 100%; height: 100%; display:flex; flex-direction: column; justify-content: space-between;">
+
+    <div style="display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;">
+
+        <Navigate NavigateEvent=@ShareDatabase>
+            <ItemTemplate>
+                <Wrapper2>
+                    <ItemTemplate>
+                        <Title Text="Backup" IsBold="false" IsCenter=false />
+                    </ItemTemplate>
+                </Wrapper2>
+            </ItemTemplate>
+        </Navigate>
+        <Navigate NavigateEvent=@RestoreDatabase>
+            <ItemTemplate>
+                <Wrapper2>
+                    <ItemTemplate>
+                        <Title Text="Restore" IsBold="false" IsCenter=false />
+                    </ItemTemplate>
+                </Wrapper2>
+            </ItemTemplate>
+        </Navigate>
+
+
+        <a href="https://www.youtube.com/@@CodingHubYtb" style="text-decoration: none;">
+            <Wrapper2>
+                <ItemTemplate>
+                    <Tag>
+                        <Element>
+                            Support Me
+                        </Element>
+                    </Tag>
+                    <Space />
+                    <div style="display: flex;">
+                        <Title Text="Youtube Channel" IsBold="false" IsCenter=false />
+                        <img src="icon/youtube.svg" width="24" height="24" />
+                    </div>
+                </ItemTemplate>
+            </Wrapper2>
+        </a>
+
+
+
+        <a href="https://buymeacoffee.com/codinghubstudio" style="text-decoration: none;">
+            <Wrapper2>
+                <ItemTemplate>
+                    <Tag>
+                        <Element>
+                            Support Me
+                        </Element>
+                    </Tag>
+                    <Space />
+                    <div style="display: flex;">
+                        <Title Text="Buy Me A Coffee" IsBold="false" IsCenter=false />
+                        <img src="icon/bmcicon.svg" width="24" height="24" />
+                    </div>
+                </ItemTemplate>
+            </Wrapper2>
+        </a>
+    </div>
+
+    <small style="text-align: center;">V @VersionTracking.CurrentVersion - <a href="https://www.youtube.com/@@CodingHubYtb" style="text-decoration: none;">Codinghub Studio</a></small>
+</div>

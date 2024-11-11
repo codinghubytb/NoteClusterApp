@@ -1,0 +1,50 @@
+﻿
+<header class="navbar">
+    <h3 style="color: var(--text-color)">@Title</h3>
+    <div class="navbar-buttons">
+        
+        <a href="https://www.youtube.com/@@CodingHubYtb">
+        <button class="user-button">
+            <img src="icon/youtube.svg" width="24" height="24" />
+        </button>
+        </a>
+        <a href="https://buymeacoffee.com/codinghubstudio">
+            <button class="user-button">
+                <img src="icon/bmcicon.svg" width="24" height="24" />
+            </button>
+        </a>
+    </div>
+</header>
+
+@code{
+    [Parameter]
+    public string Title { get; set; } = "Note Cluster";
+}
+
+<style>
+    .navbar-buttons {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+    }
+
+    .user-button {
+        background: none;
+        color: var(--text-color);
+        font-size: 20px;
+        cursor: default;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        border:none;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease;
+    }
+
+        .user-button:hover {
+            background-color: var(--primary-color);
+            color: var(--sidebar-color);
+        }
+
+</style>

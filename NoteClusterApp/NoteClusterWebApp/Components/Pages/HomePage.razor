@@ -1,0 +1,76 @@
+﻿@page "/"
+@inherits HomePageModel
+
+<Title Text="Welcome" TextColor="var(--text-color)" />
+<Space />
+<Space />
+
+
+<div style="display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;">
+    <Wrapper2>
+        <ItemTemplate>
+            <Label Text="Notes Counts" />
+            <Space />
+            <Title Text=@NotesCount.ToString() IsCenter />
+        </ItemTemplate>
+    </Wrapper2>
+    <Wrapper2>
+        <ItemTemplate>
+            <Label Text="Task Counts" />
+            <Space />
+            <Title Text=@TaskNotCompletedCount.ToString() IsCenter />
+        </ItemTemplate>
+    </Wrapper2>
+   
+</div>
+<Space />
+<div style="display: grid; 
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;">
+
+<Wrapper2>
+    <ItemTemplate>
+            <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                <Label Text="Task Not Completed" />
+                <Space />
+                <Title Text=@TaskNotCompletedCount.ToString() IsCenter FontSize="30"/>
+        </div>
+    </ItemTemplate>
+</Wrapper2>
+
+</div>
+
+<Space NumberSpace="2" />
+<hr />
+
+<Space NumberSpace="2" />
+
+<Title IsBold=false IsCenter="false" Text="Today" />
+
+<Space />
+
+@if (tasks != null)
+{
+    <Grid Items=@tasks TItem=TaskItem Gap="10">
+        <ItemTemplate Context="item">
+            <Navigate NavigateEvent=@(()=>OnNavigate($"taskform/{item.Id}"))>
+                <ItemTemplate>
+                    <Wrapper2 Padding="16">
+                        <ItemTemplate>
+                            <div style="display: flex; gap: 10px;">
+                                <CheckBoxInput Value=@item.IsCompleted ValueChanged=@((e)=>OnChangeState(e, item)) TextColor="var(--primary-color)" StopPropagation="true" />
+                                <Title Text=@item.Title FontSize="18" IsBold="false" IsCenter="false" />
+                            </div>
+                        </ItemTemplate>
+                    </Wrapper2>
+                </ItemTemplate>
+            </Navigate>
+        </ItemTemplate>
+        <EmptyResults>
+            <Label Text="Nothing for the moment" />
+        </EmptyResults>
+    </Grid>
+
+}

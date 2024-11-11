@@ -1,0 +1,92 @@
+﻿@import 'app.css';
+
+.page {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    height: 70px; /* Hauteur de la navbar */
+    background-color: var(--sidebar-color);
+    color: white;
+    width: 100%; /* Prend toute la largeur */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000;
+    border-bottom: 1px solid lightgray;
+}
+
+.tabbar {
+    height: 70px; /* Hauteur de la navbar */
+    background-color: var(--sidebar-color);
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Prend l'espace restant */
+    height: 100vh;
+}
+
+.main-view {
+    flex: 1; /* Prend l'espace restant à droite de la sidebar */
+    background-color: var(--body-color);
+    width: 100%;
+    padding: 1rem;
+    height: calc(100vh - 140px); /* Déduisez la hauteur de la navbar */
+    transition: var(--tran-05);
+    overflow: auto;
+/*    background-position: center center;
+    background-size: cover;
+    background-image: url('/icon/back.svg');*/
+}
+
+.container {
+    padding: 0 0 30px 30px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 2000px;
+        margin: auto;
+    }
+}
+
+.container {
+    height: 100%;
+    padding:1rem;
+}
+
+
+.btn-fab {
+    position: absolute;
+    bottom: 90px; /* Ajustez la distance du bas */
+    right: 20px; /* Ajustez la distance de droite */
+    width: 70px; /* Largeur du bouton */
+    height: 70px; /* Hauteur du bouton */
+    border: none;
+    border-radius: 50%; /* Rendre le bouton rond */
+    background-color: var(--primary-color); /* Couleur du bouton */
+    color: white; /* Couleur du texte */
+    font-size: 50px; /* Taille de l'icône */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+    .btn-fab:hover {
+        background-color: #0056b3; /* Couleur au survol */
+    }
+
+.btn-icon {
+    line-height: 1; /* Pour centrer le symbole "+" */
+}

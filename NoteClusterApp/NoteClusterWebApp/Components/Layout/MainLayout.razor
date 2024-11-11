@@ -1,0 +1,25 @@
+﻿@inherits LayoutComponentBase
+
+<CascadingValue Value="(Action<string>)UpdateTitle">
+    <div class="page">
+        <div class="main-container">
+            <HeaderBar Title=@Title />
+            <div class="main-view">
+                @Body
+            </div>
+
+            <TabBar />
+        </div>
+    </div>
+</CascadingValue>
+
+@code {
+    public string Title { get; set; } = "Note Cluster";
+
+    // Method to update the title
+    public void UpdateTitle(string newTitle)
+    {
+        Title = newTitle;
+        StateHasChanged(); // Refresh the layout to display the new title
+    }
+}

@@ -1,0 +1,92 @@
+﻿@page "/notes"
+@inherits NotePageModel
+
+<div style="width:100%;">
+    <TextInput TextColor="var(--text-color)" BackgroundColor="white"
+               BorderColor="var(--text-color)" Placeholder="Search ..." InputEvent=@SearchNote FontSize="14" />
+
+</div>
+<Space />
+<div style="display:flex; gap:10px;">
+
+    <div style="width:100%;">
+        <SelectInput TValue=int ValueChanged=OnCategories BackgroundColor="white" FontSize="14">
+
+            <option selected value=0>Categories (All)</option>
+            @foreach (var cat in Categories)
+            {
+                <option value=@cat.Id>@cat.Name</option>
+            }
+        </SelectInput>
+
+    </div>
+    <div style="width:100%;">
+        <SelectInput TValue="int" ValueChanged=OnFilter BackgroundColor="white" FontSize="14">
+            <option selected value=0>Not Filter</option>
+            <option value=2>Important</option>
+            <option value=3>Archived</option>
+        </SelectInput>
+
+    </div>
+
+</div>
+
+<Space />
+
+@if (NoteItems != null)
+{
+    <Title IsCenter="false" IsBold="false" Text=@($"{NoteItems.Count()} Note(s)") TextColor="var(--text-color)" FontSize="15" />
+    <Space />
+    <Grid Items=@NoteItems TItem=NoteItem Gap="10">
+        <ItemTemplate Context="item">
+            <Navigate Path=@($"noteform/{item.Id}") NavigateEvent=OnNavigate>
+                <ItemTemplate>
+                    <Wrapper2 Padding="10" BackgroundColor=@(item.IsArchived ? "#f8f8f8" : "#fff")>
+                        <ItemTemplate>
+                            <div>
+
+                                @if (item.IsArchived)
+                                {
+                                    <Tag BackgroundColor="#888" TextColor="white">
+                                        <Element>
+                                            Archiver
+                                        </Element>
+                                    </Tag>
+                                }
+                                else
+                                {@if (item.IsImportant)
+                                    {
+                                        <Tag BackgroundColor="#ffdddd" TextColor="red">
+                                            <Element>
+                                                Important
+                                            </Element>
+                                        </Tag>
+                                    }
+                                    <Tag BackgroundColor="transparent" TextColor=@item.Category.Color BorderColor=@item.Category.Color>
+                                        <Element>
+                                            @item.Category.Name
+                                        </Element>
+                                    </Tag>
+
+                                }
+                                
+                            </div>
+                            <Space />
+                            <Title Text=@item.Title FontSize="18" IsCenter="false" IsBold="false" />
+                        </ItemTemplate>
+                    </Wrapper2>
+
+                </ItemTemplate>
+            </Navigate>
+        </ItemTemplate>
+        <EmptyResults></EmptyResults>
+    </Grid>
+
+}
+
+<Space NumberSpace="5" />
+
+<button class="btn-fab" style="background-color: rosybrown" @onclick=@(()=>OnNavigate("noteform/0"))>
+    <span class="btn-icon">+</span>
+</button>
+

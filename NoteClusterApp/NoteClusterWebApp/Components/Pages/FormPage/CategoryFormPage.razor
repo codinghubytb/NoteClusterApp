@@ -1,0 +1,28 @@
+﻿@page "/categoryform/{Id:int}"
+@inherits CategoryFormPageModel
+
+<Title Text="Create Category" TextColor="var(--text-color)" />
+
+<Space />
+
+<Label Text="Name" />
+<TextInput @bind-Value=Category.Name Placeholder="Name ..." BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+
+<Space />
+
+<Label Text="Content" />
+<TextareaInput @bind-Value=Category.Description Placeholder="Content ..." Row="10" BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+
+<Space />
+
+<p style="color:red;" >@Error</p>
+<Content>
+    <ItemTemplate>
+        <Button Text="Cancel" BorderColor="var(--primary-color)" TextColor="var(--primary-color)" ClickEvent=@(() => OnNavigate("categories")) />
+        @if(Category.Id != 0)
+        {
+            <Button Text="Delete" BackgroundColor="red" TextColor="white" ClickEvent=@DeleteNote />
+        }
+        <Button Text="Save" BackgroundColor="var(--primary-color)" TextColor="white" ClickEvent=@SaveNote />
+    </ItemTemplate>
+</Content>

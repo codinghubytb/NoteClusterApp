@@ -1,0 +1,62 @@
+﻿@page "/taskform/{Id:int}"
+@inherits TaskFormPageModel
+
+<Title Text="Create Task" TextColor="var(--text-color)" />
+
+<Space />
+
+<Label Text="Title" />
+<TextInput @bind-Value=TaskItem.Title Placeholder="Title ..." BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+
+<Space />
+
+<Label Text="Description" />
+<TextareaInput @bind-Value=TaskItem.Description Placeholder="Content ..." BackgroundColor="white" Row="3" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+
+<Space />
+
+<Content>
+    <ItemTemplate>
+        <div style="width: 100%;">
+            <Label Text="Category" />
+            <SelectInput TValue=int @bind-Value=TaskItem.CategoryId>
+                @foreach (var cat in Categories)
+                {
+                    <option value=@cat.Id>@cat.Name</option>
+                }
+            </SelectInput>
+        </div>
+        <div style="width: 100%;">
+            <Label Text="Priority" />
+            <SelectInput TValue=int @bind-Value=TaskItem.Priority>
+                <option value=2>Basse</option>
+                <option value=1>Moyenne</option>
+                <option value=0>Hautte</option>
+            </SelectInput>
+        </div>
+    </ItemTemplate>
+</Content>
+<Space/>
+
+<CheckBoxInput Label="Is Archive" @bind-Value=TaskItem.IsArchived />
+
+<CheckBoxInput Label="Is Completed" @bind-Value=TaskItem.IsCompleted />
+
+<Space />
+
+<Label Text=@($"Date Created : {TaskItem.DateCreated}") TextColor="var(--text-color)" />
+<Label Text=@($"Date Modified : {TaskItem.DateModified}") TextColor="var(--text-color)" />
+
+<Space />
+
+<p style="color:red;">@Error</p>
+<Content>
+    <ItemTemplate>
+        <Button Text="Cancel" BorderColor="var(--primary-color)" TextColor="var(--primary-color)" ClickEvent=@(() => OnNavigate("tasks")) />
+        @if(TaskItem.Id != 0)
+        {
+            <Button Text="Delete" BackgroundColor="red" TextColor="white" ClickEvent=@DeleteTask />
+        }
+        <Button Text="Save" BackgroundColor="var(--primary-color)" TextColor="white" ClickEvent=@SaveTask />
+    </ItemTemplate>
+</Content>
