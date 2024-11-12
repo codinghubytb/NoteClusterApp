@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C91C4F-9256-4FEB-A008-C0EAF4499A6C}|NoteClusterWebApp\\NoteClusterWebApp.csproj|c:\\git\\mes projets\\noteclusterapp\\noteclusterapp\\noteclusterwebapp\\noteclusterwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A4C91C4F-9256-4FEB-A008-C0EAF4499A6C}|NoteClusterWebApp\\NoteClusterWebApp.csproj|solutionrelative:noteclusterwebapp\\noteclusterwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +35,23 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{53d10d51-d2d8-3452-ab88-12f687ed0782}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7d1a5679-04f2-3f4a-851f-855baa54731c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NoteClusterWebApp",
+              "DocumentMoniker": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\NoteClusterWebApp.csproj",
+              "RelativeDocumentMoniker": "NoteClusterWebApp\\NoteClusterWebApp.csproj",
+              "ToolTip": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\NoteClusterWebApp.csproj",
+              "RelativeToolTip": "NoteClusterWebApp\\NoteClusterWebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-12T15:04:37.995Z",
+              "EditorCaption": ""
             }
           ]
         }

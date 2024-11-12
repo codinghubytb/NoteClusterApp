@@ -13,114 +13,114 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NoteClusterWebApp
 build_property.RootNamespace = NoteClusterWebApp
-build_property.ProjectDir = C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\
+build_property.ProjectDir = C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp
+build_property.MSBuildProjectDirectory = C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/App.xaml]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NoteClusterWebApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/MainPage.xaml]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NoteClusterWebApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Layout/HeaderBar.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Layout/HeaderBar.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcSGVhZGVyQmFyLnJhem9y
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Layout/MainLayout.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Layout/TabBar.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Layout/TabBar.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVGFiQmFyLnJhem9y
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/CategoryPage.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/CategoryPage.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yeVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/FormPage/CategoryFormPage.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/FormPage/CategoryFormPage.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb3JtUGFnZVxDYXRlZ29yeUZvcm1QYWdlLnJhem9y
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/FormPage/NoteFormPage.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/FormPage/NoteFormPage.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb3JtUGFnZVxOb3RlRm9ybVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/FormPage/TaskFormPage.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/FormPage/TaskFormPage.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb3JtUGFnZVxUYXNrRm9ybVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/HomePage.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/HomePage.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/NotePage.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/NotePage.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RlUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/SettingsPage.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/SettingsPage.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZXR0aW5nc1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/TaskPage.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Pages/TaskPage.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUYXNrUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Routes.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/Routes.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GIT/Mes Projets/Others/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/_Imports.razor]
+[C:/GIT/Mes Projets/NoteClusterApp/NoteClusterApp/NoteClusterWebApp/Components/_Imports.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==

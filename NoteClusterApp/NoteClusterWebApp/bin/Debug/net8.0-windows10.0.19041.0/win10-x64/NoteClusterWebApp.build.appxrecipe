@@ -10,238 +10,238 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.codinghub.notecluster2</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NoteClusterWebApp.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NoteClusterWebApp.runtimeconfig.json">
       <PackagePath>NoteClusterWebApp.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NoteClusterWebApp.dll">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NoteClusterWebApp.dll">
       <PackagePath>NoteClusterWebApp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>NoteClusterWebApp.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\css\app.css">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\css\style.css">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\css\style.css">
       <PackagePath>wwwroot\css\style.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\back-arrow.svg">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\back-arrow.svg">
       <PackagePath>wwwroot\icon\back-arrow.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\bmcicon.svg">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\bmcicon.svg">
       <PackagePath>wwwroot\icon\bmcicon.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\card.svg">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\card.svg">
       <PackagePath>wwwroot\icon\card.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\category.svg">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\category.svg">
       <PackagePath>wwwroot\icon\category.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\filter.svg">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\filter.svg">
       <PackagePath>wwwroot\icon\filter.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\home.svg">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\home.svg">
       <PackagePath>wwwroot\icon\home.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\logo.svg">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\logo.svg">
       <PackagePath>wwwroot\icon\logo.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\note.svg">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\note.svg">
       <PackagePath>wwwroot\icon\note.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\settings.svg">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\settings.svg">
       <PackagePath>wwwroot\icon\settings.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\task.svg">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\task.svg">
       <PackagePath>wwwroot\icon\task.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\youtube.svg">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\icon\youtube.svg">
       <PackagePath>wwwroot\icon\youtube.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\index.html">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\js\base.js">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\wwwroot\js\base.js">
       <PackagePath>wwwroot\js\base.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashnoteclusterSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashnoteclusterSplashScreen.scale-100.png">
       <PackagePath>splashnoteclusterSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashnoteclusterSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashnoteclusterSplashScreen.scale-125.png">
       <PackagePath>splashnoteclusterSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashnoteclusterSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashnoteclusterSplashScreen.scale-150.png">
       <PackagePath>splashnoteclusterSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashnoteclusterSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashnoteclusterSplashScreen.scale-200.png">
       <PackagePath>splashnoteclusterSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashnoteclusterSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashnoteclusterSplashScreen.scale-400.png">
       <PackagePath>splashnoteclusterSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NoteClusterWebApp.deps.json">
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NoteClusterWebApp.deps.json">
       <PackagePath>NoteClusterWebApp.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">

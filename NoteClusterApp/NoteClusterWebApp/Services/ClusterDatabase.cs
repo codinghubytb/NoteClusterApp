@@ -194,11 +194,10 @@ namespace NoteClusterWebApp.Services
 
             // Define the start and end of the specified date
             var startOfDay = dateTime.Date;
-            var endOfDay = dateTime.Date.AddDays(1).AddTicks(-1);
 
             // Fetch TaskItems that fall within the date range
             var taskItems = await Database.Table<TaskItem>()
-                                           .Where(n => n.DateModified >= startOfDay && n.DateModified <= endOfDay && n.IsCompleted == false)
+                                           .Where( n => !n.IsCompleted && !n.IsArchived)
                                            .ToListAsync();
 
             foreach (var task in taskItems)
@@ -225,6 +224,13 @@ namespace NoteClusterWebApp.Services
                                                .Where(t => t.CategoryId == id)
                                                .CountAsync();
             return taskCount + noteCount;
+        }
+
+        public async Task<int> GetNbCategoriesAsync()
+        {
+            await Init();
+
+            return await Database.Table<Category>().CountAsync();
         }
 
         public async Task<List<Category>> GetCategoriesWithCountsAsync()
@@ -264,7 +270,7 @@ namespace NoteClusterWebApp.Services
         public async Task<int> GetCountTaskCompleted(bool value = true)
         {
             await Init();
-            var taskItems = await Database.Table<TaskItem>().Where(t => t.IsCompleted == value).CountAsync();
+            var taskItems = await Database.Table<TaskItem>().Where(t => t.IsCompleted == value && !t.IsArchived).CountAsync();
 
             return taskItems;
         }
@@ -301,6 +307,13 @@ namespace NoteClusterWebApp.Services
 
             return noteItems;
         }
+        public async Task<int> GetTasks()
+        {
+            await Init();
+            var items = await Database.Table<TaskItem>().CountAsync();
+
+            return items;
+        }
         public async Task<List<NoteItem>> GetNotesImportant(bool value = true)
         {
             await Init();
@@ -327,6 +340,7 @@ namespace NoteClusterWebApp.Services
             }
             return noteItems;
         }
+
         public async Task SaveTaskAsync(TaskItem task)
         {
             await Init();

@@ -14,7 +14,7 @@ namespace NoteClusterWebApp.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime DateCreated { get; set; } = DateTime.UtcNow;
-        public DateTime? DueDate { get; set; }
+        public DateTime? DueDate { get; set; } = DateTime.UtcNow.AddYears(2);
         public DateTime DateModified { get; set; } = DateTime.UtcNow;
         public bool IsCompleted { get; set; } = false;
         public int Priority { get; set; } = 2;

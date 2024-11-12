@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("NoteClusterWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.3.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3+4b37aef2a8d196addec4c483276c24f5fd8a27ad")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.4.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.4+ca7a4b30a9b8e57c07bd56221220e6f9fbd07cf1")]
 [assembly: System.Reflection.AssemblyProductAttribute("NoteClusterWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NoteClusterWebApp")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.3.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.4.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS18.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS14.2")]
 

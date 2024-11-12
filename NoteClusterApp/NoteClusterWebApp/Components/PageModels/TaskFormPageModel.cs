@@ -16,7 +16,6 @@ namespace NoteClusterWebApp.Components.PageModels
         protected TaskItem TaskItem { get; set; } = new();
         protected string Error { get; set; } = string.Empty;
 
-
         protected override Task OnInitializedAsync()
         {
             UpdateTitle?.Invoke("Task Form");
@@ -61,7 +60,6 @@ namespace NoteClusterWebApp.Components.PageModels
             OnNavigate("tasks");
 
         }
-
 
 
     }

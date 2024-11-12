@@ -1,1 +1,1 @@
-C:\GIT\Mes Projets\Others\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\NoteClusterWebApp.csproj;x64
+C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\NoteClusterWebApp.csproj;x64

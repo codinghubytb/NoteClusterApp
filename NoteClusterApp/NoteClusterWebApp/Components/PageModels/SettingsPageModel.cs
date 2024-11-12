@@ -74,10 +74,10 @@ namespace NoteClusterWebApp.Components.PageModels
             var tempDataTask = await tempConnection.Table<TaskItem>().ToListAsync();
             var tempDataCategory = await tempConnection.Table<Category>().ToListAsync();
 
-            foreach (var item in tempDataNote)
+            foreach (var item in tempDataCategory)
             {
                 // Vérifiez si l'enregistrement existe déjà dans la base de données principale pour éviter les doublons
-                var existingItem = await mainConnection.FindAsync<NoteItem>(item.Id);
+                var existingItem = await mainConnection.FindAsync<Category>(item.Id);
 
                 if (existingItem == null)
                 {
@@ -85,10 +85,10 @@ namespace NoteClusterWebApp.Components.PageModels
                     await mainConnection.InsertAsync(item);
                 }
             }
-            foreach (var item in tempDataCategory)
+            foreach (var item in tempDataNote)
             {
                 // Vérifiez si l'enregistrement existe déjà dans la base de données principale pour éviter les doublons
-                var existingItem = await mainConnection.FindAsync<Category>(item.Id);
+                var existingItem = await mainConnection.FindAsync<NoteItem>(item.Id);
 
                 if (existingItem == null)
                 {

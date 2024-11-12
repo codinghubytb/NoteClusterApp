@@ -6,12 +6,12 @@
 <Space />
 
 <Label Text="Title" />
-<TextInput @bind-Value=NoteItem.Title Placeholder="Title ..." BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+<TextInput @bind-Value=NoteItem.Title Placeholder="Title ..." Maxlength=150 BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
 
 <Space />
 
 <Label Text="Content" />
-<TextareaInput @bind-Value=NoteItem.Content Placeholder="Content ..." Row="10" BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+<TextareaInput @bind-Value=NoteItem.Content Placeholder="Content ..." Maxlength="2000" Row="10" BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
 
 <Space />
 
@@ -25,22 +25,29 @@
 
 <Space />
 
-<CheckBoxInput Label="Is Archive" @bind-Value=NoteItem.IsArchived />
+<Content>
+    <ItemTemplate>
 
-<CheckBoxInput Label="Is Important" @bind-Value=NoteItem.IsImportant />
+        <CheckBoxInput Label="Is Archive" @bind-Value=NoteItem.IsArchived />
+
+        <CheckBoxInput Label="Is Important" @bind-Value=NoteItem.IsImportant />
+
+    </ItemTemplate>
+</Content>
 
 <Space />
 
-<Label Text=@($"Date Created : {NoteItem.DateCreated}") TextColor="var(--text-color)" />
-<Label Text=@($"Date Modified : {NoteItem.DateModified}") TextColor="var(--text-color)" />
+<Label Text=@($"Created : {NoteItem.DateCreated.ToString("g")}") TextColor="var(--text-color)" />
+<Space />
+<Label Text=@($"Modified : {NoteItem.DateModified.ToString("g")}") TextColor="var(--text-color)" />
 
 <Space />
 
-<p style="color:red;" >@Error</p>
+<p style="color:red;">@Error</p>
 <Content>
     <ItemTemplate>
         <Button Text="Cancel" BorderColor="var(--primary-color)" TextColor="var(--primary-color)" ClickEvent=@(() => OnNavigate("notes")) />
-        @if(NoteItem.Id != 0)
+        @if (NoteItem.Id != 0)
         {
             <Button Text="Delete" BackgroundColor="red" TextColor="white" ClickEvent=@DeleteNote />
         }

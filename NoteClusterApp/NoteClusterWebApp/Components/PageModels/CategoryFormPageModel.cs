@@ -14,7 +14,7 @@ namespace NoteClusterWebApp.Components.PageModels
         public int Id { get; set; }
         protected Category Category { get; set; } = new();
         protected string Error { get; set; } = string.Empty;
-
+        protected int NbTotalCategories { get; set; }   
 
         protected override Task OnInitializedAsync()
         {
@@ -26,7 +26,10 @@ namespace NoteClusterWebApp.Components.PageModels
         async void GetData()
         {
             if (Id != 0)
+            {
                 Category = await ClusterDatabase.GetCategoriesAsync(Id);
+                NbTotalCategories = await ClusterDatabase.GetNbCategoriesAsync();
+            }
             Error = string.Empty;
 
             StateHasChanged();

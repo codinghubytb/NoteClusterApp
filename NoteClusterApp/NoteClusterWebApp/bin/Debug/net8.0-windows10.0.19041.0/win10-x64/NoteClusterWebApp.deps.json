@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {},
     ".NETCoreApp,Version=v8.0/win10-x64": {
-      "NoteClusterWebApp/1.0": {
+      "NoteClusterWebApp/1.0.4": {
         "dependencies": {
           "CommunityToolkit.Maui": "9.1.0",
           "Microsoft.AspNetCore.Components.WebView.Maui": "8.0.82",
@@ -754,7 +754,7 @@
     }
   },
   "libraries": {
-    "NoteClusterWebApp/1.0": {
+    "NoteClusterWebApp/1.0.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

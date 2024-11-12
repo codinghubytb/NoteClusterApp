@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-11T11:28:22.867</Modified>
+      <Modified>2024-11-12T14:49:35.930</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,7 +44,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Release\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>NoteClusterWebApp.exe</PackagePath>
-      <Modified>2024-11-11T11:28:02.807</Modified>
+      <Modified>2024-11-12T14:49:34.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -732,7 +732,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\Mes Projets\NoteClusterApp\NoteClusterApp\NoteClusterWebApp\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\NoteClusterWebApp.dll">
       <PackagePath>NoteClusterWebApp.dll</PackagePath>
-      <Modified>2024-11-11T11:28:22.725</Modified>
+      <Modified>2024-11-12T14:49:35.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KIGAMES\.nuget\packages\microsoft.maui.controls.compatibility\8.0.82\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

@@ -3373,14 +3373,14 @@ target triple = "aarch64-unknown-linux-android21"
 @.env.4 = private unnamed_addr constant [15 x i8] c"MONO_LOG_LEVEL\00", align 1
 @.env.5 = private unnamed_addr constant [5 x i8] c"info\00", align 1
 @.env.6 = private unnamed_addr constant [17 x i8] c"XAMARIN_BUILD_ID\00", align 1
-@.env.7 = private unnamed_addr constant [37 x i8] c"3de18375-2284-46f7-bdb2-c5915d41b5c4\00", align 1
+@.env.7 = private unnamed_addr constant [37 x i8] c"0ba6d933-f48f-40da-b2ee-12b831e3ea30\00", align 1
 @.env.8 = private unnamed_addr constant [28 x i8] c"XA_HTTP_CLIENT_HANDLER_TYPE\00", align 1
 @.env.9 = private unnamed_addr constant [42 x i8] c"Xamarin.Android.Net.AndroidMessageHandler\00", align 1
 @.env.10 = private unnamed_addr constant [29 x i8] c"__XA_PACKAGE_NAMING_POLICY__\00", align 1
 @.env.11 = private unnamed_addr constant [15 x i8] c"LowercaseCrc64\00", align 1
 
 ;ApplicationConfig
-@.ApplicationConfig.0_android_package_name = private unnamed_addr constant [27 x i8] c"com.codinghub.notecluster2\00", align 1
+@.ApplicationConfig.0_android_package_name = private unnamed_addr constant [26 x i8] c"com.codinghub.notecluster\00", align 1
 
 ;DSOCacheEntry
 @.DSOCacheEntry.0_name = private unnamed_addr constant [16 x i8] c"libe_sqlite3.so\00", align 1

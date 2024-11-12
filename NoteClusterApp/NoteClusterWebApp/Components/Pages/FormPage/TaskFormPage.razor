@@ -6,12 +6,12 @@
 <Space />
 
 <Label Text="Title" />
-<TextInput @bind-Value=TaskItem.Title Placeholder="Title ..." BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+<TextInput @bind-Value=TaskItem.Title Placeholder="Title ..." Maxlength="150" BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
 
 <Space />
 
 <Label Text="Description" />
-<TextareaInput @bind-Value=TaskItem.Description Placeholder="Content ..." BackgroundColor="white" Row="3" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+<TextareaInput @bind-Value=TaskItem.Description Placeholder="Content ..." Maxlength="2000" BackgroundColor="white" Row="3" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
 
 <Space />
 
@@ -36,16 +36,25 @@
         </div>
     </ItemTemplate>
 </Content>
-<Space/>
-
-<CheckBoxInput Label="Is Archive" @bind-Value=TaskItem.IsArchived />
-
-<CheckBoxInput Label="Is Completed" @bind-Value=TaskItem.IsCompleted />
 
 <Space />
 
-<Label Text=@($"Date Created : {TaskItem.DateCreated}") TextColor="var(--text-color)" />
-<Label Text=@($"Date Modified : {TaskItem.DateModified}") TextColor="var(--text-color)" />
+<Content>
+    <ItemTemplate>
+
+        <CheckBoxInput Label="Is Archive" @bind-Value=TaskItem.IsArchived />
+
+        <CheckBoxInput Label="Is Completed" @bind-Value=TaskItem.IsCompleted />
+
+    </ItemTemplate>
+</Content>
+
+<Space />
+
+
+<Label Text=@($"Created : {TaskItem.DateCreated.ToString("g")}") TextColor="var(--text-color)" />
+<Space />
+<Label Text=@($"Modified : {TaskItem.DateModified.ToString("g")}") TextColor="var(--text-color)" />
 
 <Space />
 
@@ -53,7 +62,7 @@
 <Content>
     <ItemTemplate>
         <Button Text="Cancel" BorderColor="var(--primary-color)" TextColor="var(--primary-color)" ClickEvent=@(() => OnNavigate("tasks")) />
-        @if(TaskItem.Id != 0)
+        @if (TaskItem.Id != 0)
         {
             <Button Text="Delete" BackgroundColor="red" TextColor="white" ClickEvent=@DeleteTask />
         }

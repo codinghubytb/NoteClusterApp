@@ -1,63 +1,63 @@
 {
   "Files": [
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\css\\app.css",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\css\\style.css",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\back-arrow.svg",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\back-arrow.svg",
       "PackagePath": "staticwebassets\\icon\\back-arrow.svg"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\bmcicon.svg",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\bmcicon.svg",
       "PackagePath": "staticwebassets\\icon\\bmcicon.svg"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\card.svg",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\card.svg",
       "PackagePath": "staticwebassets\\icon\\card.svg"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\category.svg",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\category.svg",
       "PackagePath": "staticwebassets\\icon\\category.svg"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\filter.svg",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\filter.svg",
       "PackagePath": "staticwebassets\\icon\\filter.svg"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\home.svg",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\home.svg",
       "PackagePath": "staticwebassets\\icon\\home.svg"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\logo.svg",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\logo.svg",
       "PackagePath": "staticwebassets\\icon\\logo.svg"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\note.svg",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\note.svg",
       "PackagePath": "staticwebassets\\icon\\note.svg"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\settings.svg",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\settings.svg",
       "PackagePath": "staticwebassets\\icon\\settings.svg"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\task.svg",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\task.svg",
       "PackagePath": "staticwebassets\\icon\\task.svg"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\youtube.svg",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\youtube.svg",
       "PackagePath": "staticwebassets\\icon\\youtube.svg"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\index.html",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\js\\base.js",
+      "Id": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\js\\base.js",
       "PackagePath": "staticwebassets\\js\\base.js"
     },
     {

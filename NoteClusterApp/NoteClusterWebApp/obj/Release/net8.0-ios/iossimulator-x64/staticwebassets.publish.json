@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S6TfDe5fO/y+nD7trHRNDW1NuJXvT+LPg457QHFB4TU=",
+  "Hash": "BLPKdqwGMMl6tjqBmKP1Ejun6P594Ock5qcvvHqreNo=",
   "Source": "NoteClusterWebApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "NoteClusterWebApp\\wwwroot",
       "Source": "NoteClusterWebApp",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\css\\app.css",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\css\\app.css",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\css\\style.css",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\css\\style.css",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\back-arrow.svg",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\back-arrow.svg",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon/back-arrow.svg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\back-arrow.svg"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\bmcicon.svg",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\bmcicon.svg",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon/bmcicon.svg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\bmcicon.svg"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\card.svg",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\card.svg",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon/card.svg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\card.svg"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\category.svg",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\category.svg",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon/category.svg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\category.svg"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\filter.svg",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\filter.svg",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon/filter.svg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\filter.svg"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\home.svg",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\home.svg",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon/home.svg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\home.svg"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\logo.svg",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\logo.svg",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon/logo.svg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\logo.svg"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\note.svg",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\note.svg",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon/note.svg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\note.svg"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\settings.svg",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\settings.svg",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon/settings.svg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\settings.svg"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\task.svg",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\task.svg",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon/task.svg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\task.svg"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\youtube.svg",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\icon\\youtube.svg",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon/youtube.svg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\youtube.svg"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\index.html",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\index.html",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\js\\base.js",
+      "Identity": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\js\\base.js",
       "SourceId": "NoteClusterWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GIT\\Mes Projets\\Others\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Mes Projets\\NoteClusterApp\\NoteClusterApp\\NoteClusterWebApp\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "js/base.js",
       "AssetKind": "All",

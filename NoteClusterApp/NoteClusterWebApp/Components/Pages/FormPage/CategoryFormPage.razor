@@ -6,12 +6,12 @@
 <Space />
 
 <Label Text="Name" />
-<TextInput @bind-Value=Category.Name Placeholder="Name ..." BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+<TextInput @bind-Value=Category.Name Placeholder="Name ..." Maxlength="50" BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
 
 <Space />
 
 <Label Text="Content" />
-<TextareaInput @bind-Value=Category.Description Placeholder="Content ..." Row="10" BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
+<TextareaInput @bind-Value=Category.Description Placeholder="Content ..." Maxlength="200" Row="10" BackgroundColor="white" BorderColor="var(--primary-color)" TextColor="var(--text-color)" />
 
 <Space />
 
@@ -19,7 +19,7 @@
 <Content>
     <ItemTemplate>
         <Button Text="Cancel" BorderColor="var(--primary-color)" TextColor="var(--primary-color)" ClickEvent=@(() => OnNavigate("categories")) />
-        @if(Category.Id != 0)
+        @if(Category.Id != 0 && NbTotalCategories > 0)
         {
             <Button Text="Delete" BackgroundColor="red" TextColor="white" ClickEvent=@DeleteNote />
         }

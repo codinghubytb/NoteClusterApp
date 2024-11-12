@@ -1,38 +1,27 @@
 ﻿<div class="tabbar">
-    <button class="tab-button" @onclick=@(()=>OnNavigate("/"))>
-            <img src="icon/home.svg" alt="Home" />
-            <span>Home</span>
-    </button>
-    <button class="tab-button" @onclick=@(()=>OnNavigate("/notes"))>
+    <NavLink class="tab-button" href="/" Match="NavLinkMatch.All">
+        <img src="icon/home.svg" alt="Home" />
+        <span>Home</span>
+    </NavLink>
+    <NavLink class="tab-button" href="/notes" Match="NavLinkMatch.All">
         <img src="icon/note.svg" alt="Note" />
         <span>Note</span>
-    </button>
-    <button class="tab-button" @onclick=@(()=>OnNavigate("/tasks"))>
+    </NavLink>
+    <NavLink class="tab-button" href="/tasks" Match="NavLinkMatch.All">
         <img src="icon/task.svg" alt="Task" />
         <span>Task</span>
-    </button>
-    <button class="tab-button" @onclick=@(()=>OnNavigate("/categories"))>
+    </NavLink>
+    <NavLink class="tab-button" href="/categories" Match="NavLinkMatch.All">
         <img src="icon/category.svg" alt="Category" />
         <span>Category</span>
-    </button>
-    <button class="tab-button" @onclick=@(()=>OnNavigate("/settings"))>
+    </NavLink>
+    <NavLink class="tab-button" href="/settings" Match="NavLinkMatch.All">
         <img src="icon/settings.svg" alt="Settings" />
         <span>Settings</span>
-    </button>
+    </NavLink>
 </div>
 
-@code{
-    [Inject]
-    public NavigationManager NavigationManager { get; set; }
-
-    void OnNavigate(string path)
-    {
-        NavigationManager.NavigateTo(path);
-    }
-}
-
 <style>
-
     .tab-button {
         background: none;
         width: 100%;
@@ -43,9 +32,10 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        cursor: default;
+        cursor: pointer;
+        text-decoration: none;
         transition: color 0.3s ease;
-        opacity:0.5;
+        opacity: 0.4;
     }
 
         .tab-button img {
@@ -58,12 +48,12 @@
             font-size: 12px;
         }
 
-        .tab-button:hover {
-            color: var(--primary-color);
+        .tab-button.active {
+            
+            opacity: 1;
         }
 
-        .tab-button.active {
-            color: var(--primary-color);
-            opacity: 1;
+        .tab-button.active span {
+            font-weight: bold;
         }
 </style>

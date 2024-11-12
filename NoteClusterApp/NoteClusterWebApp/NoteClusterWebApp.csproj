@@ -19,8 +19,8 @@
         <ApplicationId>com.codinghub.notecluster</ApplicationId>
 
         <!-- Versions -->
-        <ApplicationDisplayVersion>1.0.3</ApplicationDisplayVersion>
-        <ApplicationVersion>4</ApplicationVersion>
+        <ApplicationDisplayVersion>1.0.4</ApplicationDisplayVersion>
+        <ApplicationVersion>5</ApplicationVersion>
 
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">24.0</SupportedOSPlatformVersion>
