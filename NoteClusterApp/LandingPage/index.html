@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Cluster</title>
+
+    <!-- Favicon -->
+
+    <link
+      rel="icon"
+      type="image/svg"
+      sizes="32x32"
+      href="images/app_logo.svg"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- End: Favicon -->
+
+    <!-- LATO — Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End: LATO — Google Font -->
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <!-- End: Main CSS File -->
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="home">
+      <nav>
+        <div class="navbar-logo">
+          <a href="#" class="logo">NoteCluster</a>
+        </div>
+        <div id="navbar">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.codinghub.notecluster">DOWNLOAD</a></li>
+          </ul>
+        </div>
+        <div id="mobileNav">
+          <span onclick="openNav()">&#9776;</span>
+        </div>
+        <div id="myNav" class="mobileNavOverlay">
+          <div class="overlay-content">
+            <a href="javascript:void()" class="close-btn" onclick="closeNav()"
+              >&times;</a
+            >
+            <a href="#home" onclick="closeNav()">HOME</a>
+            <a href="#features" onclick="closeNav()">FEATURES</a>
+            <a href="https://play.google.com/store/apps/details?id=com.codinghub.notecluster" onclick="closeNav()">DOWNLOAD</a>
+          </div>
+        </div>
+      </nav>
+      <div id="hero">
+        <div class="row">
+          <div class="col span_1_of_2">
+            <div class="hero-description">
+              <h1>
+                Simple, safe <br />
+                & organized.
+              </h1>
+
+              <p>
+                With <span class="bold-text">NoteCluster</span>, enjoy fast, simple and secure management of your notes and tasks by category!
+              </p>
+
+              <a href="https://play.google.com/store/apps/details?id=com.codinghub.notecluster" class="btn"
+                ><span class="download-btn"> Download Now</span></a
+              >
+            </div>
+          </div>
+          <div class="col span_1_of_2">
+            <img class="hero-img" src="images/app.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="shape-divider">
+        <div class="custom-shape-divider-bottom-1603385849">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <button onclick="topFunction()" id="scrollUp" title="Go to top">
+        <svg
+          width="1.5rem"
+          height="1.5rem"
+          viewBox="0 0 16 16"
+          class="bi bi-arrow-up"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+          />
+        </svg>
+      </button>
+    </header>
+    <!-- End: Header Section -->
+
+    <!-- Features Section -->
+    <section id="features">
+      <div class="row">
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_1" src="images/note.webp" alt="" />
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="section-description features-description col1">
+            <h2 class="stylish_heading">
+              Easy Note <span class="red_dot">.</span>
+            </h2>
+            <p class="little-description">
+              Keep all your important ideas and information at your fingertips. With a space dedicated to notes, organize your thoughts and access them easily, wherever you are.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row second-features-row">
+        <div class="col span_1_of_2">
+          <div class="section-description features-description">
+            <h2 class="stylish_heading">
+              Easy Task <span class="red_dot">.</span>
+            </h2>
+            <p class="little-description">
+              Easily plan, track, and manage your tasks. Rank your priorities and stay organized with a clear view of what to do, when you need it.
+            </p>
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_3" src="images/task.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End: Features Section -->
+
+    <!-- How To Section -->
+    <section id="howto">
+      <div class="row">
+        <div class="col span_1_of_3 first-col">
+          <div class="first-item">
+            <div class="item-description">
+              <h4>Create your notes</h4>
+              <p>
+                Write down your important ideas and information with ease.
+              </p>
+            </div>
+
+          </div>
+          <div class="first-item">
+            <div class="item-description">
+              <h4>Create your tasks</h4>
+              <p>
+                Easily manage your projects by adding custom to-do items.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col span_1_of_3 second-col" style="display:flex; justify-content:center; align-items:center;">
+          <img class="big_image" src="images/dashboard.png" alt="" />
+        </div>
+        <div class="col span_1_of_3 third-col">
+          <div class="last-item">
+            
+            <div class="item-description">
+              <h4>Customize your categories</h4>
+              <p>
+              Create unique categories to organize your notes and tasks your way.
+            </p>
+          </div>
+
+
+          </div>
+          <div class="last-item">
+            <div class="item-description">
+              <h4>Backup and restore your data</h4>
+              <p>Keep your notes and tasks safe with easy backup and restore options.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End: How To Section -->
+
+    <!-- Download The App Section -->
+    <section id="download">
+      <div class="row">
+        <img class="app-logo" src="images/app_logo.svg" alt="" />
+        <h2 class="stylish_heading">
+          Download the app <span class="red_dot">.</span>
+        </h2>
+        <p class="">
+         Simplify the management of your notes and tasks with a fast, secure and easy-to-use application.
+        </p>
+
+        <a href="https://play.google.com/store/apps/details?id=com.codinghub.notecluster">
+          <img src="images/playstore.png" alt=""
+        /></a>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
